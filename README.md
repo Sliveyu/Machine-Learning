@@ -10,7 +10,7 @@ The architecture consists of an input layer defined to accept images of 224x224x
 
 - **ViT Accuracy:** 96.6%
 - **ViT F1 Score:** 96.5%  
-- **Accuracy Improvement:** +2.8% through manual correction of mislabeled images. This process directly improved model performance and highlighted how **data quality intervention** can impact model accuracy.
+- **Accuracy Improvement:** +12.8% through manual correction of mislabeled images. This process directly improved model performance and highlighted how **data quality intervention** can impact model accuracy.
 
 Evaluation on the test set demonstrated that the Vision Transformer outperformed several established convolutional neural network (CNN) architectures trained on the same dataset, achieving a classification accuracy of 96.6%, 1% higher than models such as the Squeeze-and-Excitation + Spatial Attention + Dilated Residual Network model outlined in Xin, Chen and Li's 2020 paper **[here.](https://www.mdpi.com/2076-3417/10/5/1681)**
 
